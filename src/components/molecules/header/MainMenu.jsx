@@ -11,8 +11,6 @@ const MainMenu = () =>{
                     <li>
                         <Link to="/productos">Productos</Link>
                     </li>
-                    <li>Ofertas</li>
-                    <li>Contactos</li>
                 </ul>
             </nav>
         
