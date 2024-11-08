@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom"
+import Icono from "../../../../public/assets/vite.svg"
 
 const Logo = () =>{
     return(
         <>
-         <div>
-            <img src="https://concepto.de/wp-content/uploads/2018/09/google-inc-e1537467602232.jpg" alt="Logo Google"/>
+         <div className="flex">
+            <Link to='/'>
+            <img src={Icono} alt="Logo Google"/>
+            </Link> 
          </div>
         </>
 
